@@ -26,10 +26,12 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @WebAppConfiguration
 public class SpringbootHelloApplicationTests {
 
+    // MockMvc对象,用于模拟调用Controller的接口发起请求.
     private MockMvc mvc;
 
     @Before
     public void setUp() {
+        // 初始化对HelloController的模拟.
         mvc = MockMvcBuilders.standaloneSetup(new HelloController()).build();
     }
 
