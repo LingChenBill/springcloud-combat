@@ -18,6 +18,9 @@
 
     <modules>
         <module>springboot-hello</module>
+        <module>eureka-server</module>
+        <module>service-hello</module>
+        <module>ribbon-consumer</module>
     </modules>
 
     <properties>

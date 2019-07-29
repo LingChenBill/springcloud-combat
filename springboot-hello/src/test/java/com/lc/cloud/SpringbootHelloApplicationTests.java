@@ -1,6 +1,6 @@
-package com.lc.cloud.springboothello;
+package com.lc.cloud;
 
-import com.lc.cloud.springboothello.controller.HelloController;
+import com.lc.cloud.controller.HelloController;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

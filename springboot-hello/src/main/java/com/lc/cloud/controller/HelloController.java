@@ -1,4 +1,4 @@
-package com.lc.cloud.springboothello.controller;
+package com.lc.cloud.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.actuate.metrics.CounterService;

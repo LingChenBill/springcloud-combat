@@ -1,4 +1,4 @@
-package com.lc.cloud.springboothello;
+package com.lc.cloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
